@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout_id"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/bdw_text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        />
+    <EditText
+        android:id="@+id/bdw_bday_name_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Anonymous"
+        />
+    <TextView
+        android:id="@+id/bdw_text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthday (mm/dd/yyyy):"
+        />
+    <EditText
+        android:id="@+id/bdw_bday_date_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: 6/3/1996"
+        />
+    <Button
+        android:id="@+id/bdw_button_update_bday_widget"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        />
+
+</LinearLayout>
